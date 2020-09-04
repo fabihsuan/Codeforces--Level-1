@@ -8,8 +8,6 @@ int main() {
   string str1, str2;
   getline(cin, str1);
   getline(cin, str2);
-  bool equal = false;
-  bool larger = false;
   int l = str1.length();
 
   transform(str1.begin(), str1.end(), str1.begin(), ::tolower);
