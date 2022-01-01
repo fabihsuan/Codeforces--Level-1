@@ -46,3 +46,38 @@ int main() {
   cout << leftcount + rightcount << endl;
   return 0;
 }
+
+
+
+
+//2022.01.01
+// version 2
+//#include <iostream>
+
+// using namespace std;
+
+// int main() {
+//   int n, a, b;
+//   int lopen = 0, ropen = 0, lclose = 0, rclose = 0;
+//   cin >> n;
+
+//   for (int i = 0; i < n; i++) {
+//     cin >> a >> b;
+//     if (a == 0) {
+//       lclose++;
+//     } else {
+//       lopen++;
+//     }
+//     if (b == 0) {
+//       rclose++;
+//     } else {
+//       ropen++;
+//     }
+//   }
+//   a = min(lclose, lopen);
+//   b = min(rclose, ropen);
+
+//   cout << a + b << endl;
+
+//   return 0;
+// }
