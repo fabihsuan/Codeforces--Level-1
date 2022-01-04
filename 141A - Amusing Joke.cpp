@@ -22,3 +22,24 @@ int main() {
   }
   return 0;
 }
+
+//2022/01/04
+// int main() {
+//     string s1, s2, s3;
+//     cin >> s1 >> s2 >> s3;
+
+//     unordered_map<char, int> mp;
+//     for (auto c : s1) ++mp[c];
+//     for (auto c : s2) ++mp[c];
+//     for (auto c : s3) --mp[c];
+
+//     for (auto kv : mp) {
+//         if (kv.second != 0) {
+//             cout << "NO" << endl;
+//             return;
+//         }
+//     }
+//     cout << "YES" << endl;
+
+//     return 0;
+// }
